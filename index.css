@@ -1,0 +1,882 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size:16px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+	font-size:16px;
+}
+section{
+	padding:80px 0px;
+}
+.Wraper{
+	overflow:hidden;
+}
+.backgroundA {
+    background: #f5f5f5;
+}
+
+.continar {
+    width: 1150px;
+    margin: auto;
+}
+
+.phone {
+    width: 250px;
+    float: left;
+    padding: 16px 0px;
+    border-left: 1px solid #ddd;
+    color: #666;
+}
+
+.email {
+    width: 716px;
+    float: left;
+    padding: 16px 0px;
+    color: #666;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.phone i {padding: 0px 10px;color: #FB5200;}
+
+.email I {
+    color: #FB5200;
+    padding: 0px 11px;
+}
+
+.social {
+    float: left;
+    width: 181px;
+}
+
+.social i {
+    padding: 16px 20px;
+    border-right: 1px solid #ddd;
+    color: #444;
+    cursor: pointer;
+}
+.social i:hover{
+	color:#fb5200;
+	transition:0.3s;
+}
+.images {
+    width: 530px;
+    float: left;
+    padding: 20px 0px;
+}
+
+.menu1 a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: oswald;
+	font-size: 14px;
+	color: #555;
+	font-weight: 500;
+	padding: 0px 10px;
+	letter-spacing: 0.5px;
+	
+}
+
+.menu1 {
+    padding: 30px 0px;
+}
+
+.menu1 i {
+    padding: 7px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.menu1 a:hover{
+	color:#fb5200;
+	transition:0.3s;
+}
+.menu1 a:first-child {
+    color: #fb5200;
+}
+section#sectionA {
+    background: url(image/-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.sectionContent h2 {
+    color: #fff;
+    width: 512px;
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 70px;
+}
+
+.sectionContent p {
+    color: #fff;
+    width: 544px;
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.sectionContent button {
+    border: none;
+    padding: 15px 35px;
+    border-radius: 3px;
+    margin: 35px 0px;
+    color: #f3f0f0;
+    background: #fb5200;
+    font-size: 16px;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.sectionContent button:hover{
+	color:#fff;
+	background:#444;
+	transition:0.3s;
+}
+section#sectionB {
+    background: #f5f5f5;
+}
+
+.singleBox1 {
+    border: 1px solid #ddddddba;
+    width: 253px;
+    background: #fff;
+    border-radius: 2px;
+    float: left;
+    margin-right: 43px;
+	transition:0.4s;
+	
+}
+
+.sinIcon {
+    text-align: center;
+    font-size: 50px;
+    color: #fb5200;
+    padding: 30px 0px;
+}
+
+.singleBox1 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.singleBox1 p {
+	text-align: center;
+	padding: 15px 0px;
+	color: #666;
+	padding-bottom: 30px;
+	
+}
+
+.more {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.more a {
+    text-decoration: none;
+    color: #fb5200;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.more i {
+    padding: 0px 6px;
+    font-size: 13px;
+}
+.singleBox1:last-child {
+    margin-right: 0px;
+}
+.active .sinIcon{
+	color:#fff;
+}
+.active{color:#fff; background:#fb5200;}
+.active h2{color:#fff;}
+.active p{color:#fff;}
+.active a{color:#fff;}
+
+.singleBox1:hover{background:#fb5200;}
+
+.singleBox1:hover .sinIcon{color:#fff;}
+.singleBox1:hover h2{color:#fff;}
+.singleBox1:hover p{color:#fff;}
+.singleBox1:hover .more a{color:#fff;}
+
+
+.imgA {
+    width: 505px;
+    float: left;
+}
+
+.imgA img {
+    width: 100%;
+    height: 430px;
+}
+
+.sectionConC {
+    width: 500px;
+    float: left;
+}
+
+.sectionConC h2 {
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.sectionConC p {
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #666;
+    width: 100%;
+}
+
+.leftCon {
+    float: left;
+    margin-left: 50px;
+}
+
+ul.Lcon li{
+    list-style: none;
+    color: black;
+    font-weight: 500;
+    padding: 12px 0px;
+    text-decoration: none;
+}
+
+.rightCon {
+    margin-left: 77px;
+    float: left;
+}
+
+.lcon a {
+    list-style: none;
+    color: black;
+    padding: 12px 0px;
+    font-weight: 500;
+}
+
+.Lcon i{
+    font-size: 13px;
+    padding-right:  10px;
+    color: #fb5200;
+}
+
+ul.Rcon a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+ 
+}
+
+ul.Lcon li a {
+    text-decoration: none;
+    color: black;
+}
+.rightCon  {
+    float: left;
+    margin-left: 50px;
+}
+
+ul.Rcon li {
+    list-style: none;
+    color: black;
+    font-weight: 500;
+    padding: 12px 0px;
+    text-decoration: none;
+}
+
+.Rcon i{
+    font-size: 13px;
+    padding-right:  10px;
+    color: #fb5200;
+}
+.Lcon a:hover{
+    color:#fb5200;	
+	transition:0.3s;
+}
+.Rcon a:hover{
+    color:#fb5200;	
+	transition:0.3s;
+}
+button {
+}
+
+.sectionConC button {
+	margin-left: 50px;
+	padding: 15px 34px;
+	border: none;
+	border-radius: 2px;
+	background: #fb5200;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Oswald';
+	font-weight: 500;
+	font-size: 17px;
+	letter-spacing: 0.8px;
+	margin-top: 11px;
+	cursor: pointer;
+	
+}
+
+.sectionConC button:hover{
+	color:#fff;
+	background:#666;
+	transition:0.3s;
+}
+
+section.sectionD {
+    background: linear-gradient(#00000085,#00000085),url(image/20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.singlePost {
+    width: 250px;
+    color: #fff;
+    float: left;
+    margin-right: 50px;
+}
+
+.singlePostlogo {
+    text-align: center;
+    font-size: 70px;
+}
+
+.singlePost h2 {
+    text-align: center;
+    font-size: 45px;
+    font-family: arial;
+    font-weight: 600;
+}
+
+.singlePost h3 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.singlePost:last-child {
+    margin-right: 0px;
+}
+
+.boxUPcon {width: 500px;margin: auto;}
+
+.boxUPcon h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.boxUPcon h2:after {content: "";position: absolute;border: 1.7px solid #fb5200;background: #fb5200;width: 57px;top: 65px;left: 44%;}
+
+.boxUPcon p {
+    text-align: center;
+    color: #666;
+    padding-bottom: 50px;
+}
+
+.BoxImage {
+    width: 300px;
+}
+
+.Box {
+    width: 255px;
+    float: left;
+    overflow: hidden;
+    margin-right: 43px;
+}
+
+.BoxImage img {
+    width: 100%;
+}
+
+.Box:last-child {
+    margin-right: 0px;
+}
+
+.Box h2 {
+    padding: 13px 0px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.Box p {
+    color: #555;
+}
+.BoxA {
+    width: 383px;
+    background: #dddddd2e;
+    border-radius: 3px;
+    float: left;
+    margin: 0px;
+}
+
+.BoxB {
+    width: 350px;
+    margin: auto;
+    border: 1px solid #dddddd6e;
+    border-radius: 2px;
+}
+
+.BoxA:last-child {
+    margin-right: 0px;
+}
+
+.BoxB h3 {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.BoxB h2 {
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: 800;
+}
+
+.BoxB {
+    background: #fff;
+}
+
+.BoxB span {
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 9px;
+}
+
+ul.list {
+    list-style: none;
+    line-height: 38px;
+    margin-left: 30px;
+    margin-top: 18px;
+    color: #666;
+}
+
+ul.list i {
+    color: #fb5200;
+    font-size: 13px;
+    padding-right: 8px;
+}
+
+.BoxB button {
+	margin-left: 30px;
+	padding: 15px 35px;
+	border: navajowhite;
+	background: #fb5200;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Oswald';
+	font-weight: 600;
+	border-radius: 2px;
+	letter-spacing: 1.8px;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	cursor: pointer;
+
+}
+
+.BoxB button:hover{
+	color:#fff;
+	background:#444;
+	transition:0.3s;
+}
+section#sectionD {
+    background: #f5f5f5;
+}
+
+.leftContect {
+    background: url(image/s02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    position: relative;
+    height: 469px;
+    float: left;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.rightContect {
+    width: 50%;
+    float: right;
+    background: #222222;
+    color: #fff;
+}
+
+.rc h2 {
+    margin-top: 70px;
+    margin-left: 70px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.rc p {
+    margin-left: 70px;
+    margin-top: 8px;
+    width: 622px;
+    line-height: 26px;
+}
+
+
+
+
+.leftIcon {
+    margin-left: 70px;
+    float: left;
+    font-size: 55px;
+    color: #fb5200;
+    margin-top: 25px;
+}
+
+.leftContent {
+    float: left;
+    margin-top: 35px;
+    line-height: 28px;
+    margin-left: 22px;
+    margin-bottom: 30px;
+}
+
+.leftBox {float: left;}
+
+.leftContent h2 {
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+}
+
+.leftContent p {
+    color: #ffffffe3;
+}
+.leftBox:last-child {
+    margin-bottom: 46px;
+}
+section#sectionF {
+    padding: 0px;
+}
+
+
+.imageBox {
+    width: 257px;
+    overflow: hidden;
+	position: relative;
+}
+
+.imageBox img {
+    width: 100%;
+}
+
+.imgContent h2 {
+    text-align: center;
+    width: 250px;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.imgContent h3 {
+    width: 250px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 21px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    padding-top: 9px;
+}
+
+.imgContent {
+    border-bottom: 1px solid #ddd;
+    width: 255px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin-top: -5px;
+}
+
+.singleBoxA {
+    float: left;
+    margin-right: 40px;
+	transition:0.3s;
+}
+
+.singleBoxA:last-child {
+    margin-right: 0px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.button button {
+    padding: 13px 30px;
+    border: navajowhite;
+    border-radius: 2px;
+    color: #fff;
+    background: #666;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.button button:hover {
+    color: #fff;
+    background: #fb5200;
+    transition: 0.3s;
+}
+
+.concon {
+    width: 500px;
+    margin: auto;
+}
+
+.concon h2 {text-align: center;font-size: 30px;font-weight: 500;padding-bottom: 26px;position: relative;}
+
+.concon h2:after {content: "";position: absolute;border: 2px solid #fb5200;width: 57px;background: #fb5200;border-radius: 3px;bottom: 12px;left: 44%;}
+
+.concon p {
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 55px;
+}
+
+.GsBox {
+    width: 260px;
+    float: left;
+    margin-right: 36px;
+}
+
+.imges img {
+    width: 100%;
+}
+
+.imgCOn h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.imgCOn {
+    border-bottom: 1px solid #5555552e;
+    border-left: 1px solid #5555552e;
+    border-right: 1px solid #5555552e;
+    margin-top: -4px;
+}
+
+.imgCOn p {
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 18px;
+}
+.GsBox:last-child {
+    margin-right: 0px;
+}
+
+.socilaIcon {width: 142px;position: absolute;bottom: 52px;text-align: center;left: 50%;transform: translateX(-50%);}
+
+.imges {
+    position: relative;
+}
+
+.socilaIcon a {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 100%;
+    float: left;
+    display: grid;
+    place-items: center;
+    padding: 4px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.socilaIcon a:last-child {
+    margin-right: 0px;
+}
+
+.socilaIcon a:first-child{
+    color: #fff;
+    background-color: #3b5998;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.socilaIcon a:nth-child(2){
+    color: #fff;
+    background-color: #00acee;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.socilaIcon a:nth-child(3){
+    color: #fff;
+    background-color: #d34836;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.socilaIcon a:last-child{
+    color: #fff;
+    background-color: #0077B5;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.GsBox:hover .socilaIcon a:first-child{
+    transform: translateY(20px);
+    opacity: 1;
+}
+.GsBox:hover .socilaIcon a:nth-child(2){
+    transform: translateY(20px);
+    opacity: 1;
+}
+.GsBox:hover .socilaIcon a:nth-child(3){
+    transform: translateY(20px);
+    opacity: 1;
+}
+.GsBox:hover .socilaIcon a:last-child{
+    transform: translateY(20px);
+    opacity: 1;
+}
+
+button.btn {
+    margin-left: 42%;
+    margin-top: 40px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 3px;
+    background: #fb5200;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.7px;
+}
+
+
+.SboxJ {
+    width: 353px;
+    float: left;
+    margin-right: 45px;
+    position: relative;
+    margin-bottom: 45px;
+    overflow: hidden;
+}
+
+.imageJ img {
+    width: 100%;
+}
+
+.SboxJ:nth-child(3) {
+    margin-right: 0px;
+}
+
+.SboxJ:nth-child(6) {margin-right: 0;}
+
+.imgContentj {
+    position: absolute;
+    bottom: 4px;
+    width: 253px;
+    padding-left: 30px;
+    padding-right: 70px;
+    padding-top: 25px;
+    color: #fff;
+    background: linear-gradient(to top, black, #00000005);
+}
+
+.imgContentj p {
+    text-decoration: underline;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.imgContentj h2 {
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+
+.imageJ {
+    position: relative;
+    overflow: hidden;
+}
+a#emon {
+    position: absolute;
+    bottom: 20px;
+    padding-left: 31px;
+    padding-bottom: 23px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    transform: translateX(-150px);
+}
+
+
+.SboxJ:hover .imgContentj {
+    padding-bottom: 60px !important;
+    transition: 0.5s;
+}
+
+.SboxJ:hover #emon {
+    transform: translateX(0px);
+    transition-delay: 0.3s;
+    transition: 0.5s;
+}
+
+.SboxJ:nth-child(3) {
+    margin-right: 0px;
+}
+
+.SboxJ:nth-child(4) {
+    margin-bottom: 0px;
+}
+
+.SboxJ:nth-child(5) {
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
